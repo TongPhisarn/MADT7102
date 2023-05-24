@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "load-data-from-source"
+version = "0.1.0"
+description = ""
+authors = ["Phisarn Samang <128025037+TongPhisarn@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "load_data_from_source"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mysql-connector-python = "8.0.33"
+pandas = "^2.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
